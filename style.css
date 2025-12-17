@@ -1,0 +1,56 @@
+body {
+    background-color: #0a0a0a;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* HERO */
+.hero-section {
+    height: 100vh;
+    background: url('img/gym2.avif') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+/* FEATURES */
+.feature-box {
+    background: #111;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.feature-box:hover {
+    background: #1a1a1a;
+    transform: translateY(-5px);
+}
+
+/* CLASS CARDS */
+.class-card {
+    background: #111;
+    border: none;
+    transition: 0.3s;
+    color: white;
+}
+
+.class-card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top{
+    height: 400px;
+}
+
+/* TRAINERS */
+.trainer-img {
+    width: 100%;
+    border-radius: 10px;
+    height: 330px;
+    object-fit: contain;
+}
+
+/* FORM */
+.form-box {
+    background: #111;
+    border-radius: 10px;
+    padding: 20px;
+}
